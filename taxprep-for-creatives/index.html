@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TaxPrep for Creatives</title>
+  <script>
+    (function() {
+      var params = window.location.search;
+      if (params && params.indexOf('code=') !== -1) {
+        window.location.href = 'taxprepforcreatives://oauth/callback' + params;
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting to TaxPrep for Creatives…</p>
+  <p>If the app doesn't open automatically, <a id="link">tap here</a>.</p>
+  <script>
+    var link = document.getElementById('link');
+    if (link) {
+      link.href = 'taxprepforcreatives://oauth/callback' + window.location.search;
+    }
+  </script>
+</body>
+</html>
