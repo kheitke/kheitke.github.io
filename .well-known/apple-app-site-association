@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["564WYTP7DQ.com.heitke.ken.TaxPrep-for-Creatives"],
+        "components": [
+          {
+            "/": "/taxprep-for-creatives/*",
+            "comment": "Etsy OAuth callback"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["564WYTP7DQ.com.heitke.ken.TaxPrep-for-Creatives"]
+  }
+}
